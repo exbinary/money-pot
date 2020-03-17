@@ -1,0 +1,3 @@
+<template>
+  <!-- redirect only -->
+</template>
