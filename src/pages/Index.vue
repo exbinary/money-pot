@@ -1,3 +1,263 @@
 <template>
-  <!-- redirect only -->
+  <div class="leading-normal tracking-normal text-white gradient">
+    <!--Hero-->
+    <div class="container pt-12 px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+      <!--Left Col-->
+      <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
+        <h1 class="my-4 text-5xl font-bold leading-tight">
+          Organizers are critical in moments of crisis!
+        </h1>
+
+        <p class="leading-normal text-2xl mb-2">
+          Help us support those holding down mutual aid efforts in the DMV
+        </p>
+
+        <a href="#contribute" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">
+          Contribute
+        </a>
+      </div>
+
+      <!--Right Col-->
+      <div class="w-full md:w-3/5 py-6 text-center">
+        <!-- <img class="w-full md:w-4/5 z-50" src="hero.png"> -->
+      </div>
+    </div>
+
+    <!-- Weave gradient into background below -->
+    <div class="relative -mt-12 lg:-mt-24 pointer-events-none">
+      <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
+        <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
+        <path d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z" opacity="0.100000001"></path>
+        <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" id="Path-4" opacity="0.200000003"></path>
+        </g>
+        <g transform="translate(-4.000000, 76.000000)" fill="#FFFFFF" fill-rule="nonzero">
+        <path d="M0.457,34.035 C57.086,53.198 98.208,65.809 123.822,71.865 C181.454,85.495 234.295,90.29 272.033,93.459 C311.355,96.759 396.635,95.801 461.025,91.663 C486.76,90.01 518.727,86.372 556.926,80.752 C595.747,74.596 622.372,70.008 636.799,66.991 C663.913,61.324 712.501,49.503 727.605,46.128 C780.47,34.317 818.839,22.532 856.324,15.904 C922.689,4.169 955.676,2.522 1011.185,0.432 C1060.705,1.477 1097.39,3.129 1121.236,5.387 C1161.703,9.219 1208.621,17.821 1235.4,22.304 C1285.855,30.748 1354.351,47.432 1440.886,72.354 L1441.191,104.352 L1.121,104.031 L0.457,34.035 Z"></path>
+        </g>
+        </g>
+      </svg>
+    </div>
+
+    <!-- Main text -->
+    <div class="bg-white py-8">
+      <div class="container max-w-5xl mx-auto m-8">
+        <section class="flex flex-wrap">
+          <div class="w-full sm:w-1/2 p-6">
+            <g-image
+              src="~/images/empty_shelves.jpg"
+              alt="image of empty shelves"
+              fit="contain"
+              background="white"
+            />
+          </div>
+          <div class="text-gray-700 w-full sm:w-1/2 p-6">
+            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+              In this moment of pandemic,
+            </h3>
+            <p>
+            we have been horrified by the lack of a unified governmental response to care for
+            the needs of DMV residents.
+            </p>
+            <p>
+            This reality will only magnify the inequity in which we live every day, doing the most
+            harm to people who already live at the margins of our social fabric: hourly and
+            contract workers, people working in informal and gig economies, single parents, folks
+            experiencing homelessness, poor and working class communities, immigrants with varying
+            documentation statuses, people without access to health insurance, folks with mental
+            health diagnoses, queer and trans people, and Black people and communities of color.
+            </p>
+            <p>
+            Here in the DMV, organizers from these communities are coming together to create systems
+            of
+            <a
+              href="http://bigdoorbrigade.com/what-is-mutual-aid/"
+              class="text-red-600 underline"
+              >
+              mutual aid
+            </a>
+              for the survival and safety of their loved ones and neighbors...
+            </p>
+          </div>
+        </section>
+
+        <section class="flex flex-wrap flex-col-reverse sm:flex-row mt-6">
+          <div class="w-5/6 sm:w-1/2 p-6 text-gray-700">
+            <div class="align-middle">
+              <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                Support the organizers!
+              </h3>
+              <p>
+              As with most community organizing work, setting up and implementing these systems
+              is a labor of love. It is difficult, heavy, unpaid work being taken up by
+              individuals who already carry so much.
+              </p>
+              <p>
+              If you happen to be hit less hard in this moment, will continue to receive income
+              during this time, have access to wealth, have access to paid sick leave, or have
+              fewer familial responsibilities, please contribute financially.
+              </p>
+            </div>
+          </div>
+          <div class="w-full sm:w-1/2 p-6">
+            <g-image
+              src="~/images/organizers.jpg"
+              alt="image of mutual aid organizers"
+              background="white"
+            />
+          </div>
+        </section>
+
+        <section class="w-full p-6 text-gray-700">
+          <h3 id="contribute" class="text-3xl text-red-600 font-bold leading-none mb-3">
+            Venmo @m4bl-money-pot
+          </h3>
+          <p>
+          We are collecting contributions via Venmo because it will allow us to distribute
+          funds quickly, and with minimal fees.
+          </p>
+        </section>
+
+        <section class="w-full p-6 text-gray-700">
+          <h3 id="contribute" class="text-3xl text-gray-800 font-bold leading-none mb-3">
+            How much should I contribute?
+          </h3>
+          <p>
+          We believe our collective immunity comes not from hoarding our resources, but
+          supporting each other. As you are deciding how much to contribute, use
+          <a href="">
+            this checklist
+          </a>
+          to explore ways you may be financially and systematically supported to keep healthy
+          during this time.
+          </p>
+          <p class="mb-1">
+          Here are some numbers that are significant to mutual aid efforts happening right now:
+          </p>
+          <ul class="list-disc list-outside px-4 mb-1">
+            <li>
+              Give <span class="font-bold">$500</span> for the 500 people who had joined the DC
+              mutual aid response in just the first few days.
+            </li>
+            <li>
+              Give <span class="font-bold">$1000</span> for the 1000 unpaid hours that organizers
+              have put into creating resource stations, providing childcare, and offering mental
+              health services in just a couple of days.
+            </li>
+            <li>
+              Give <span class="font-bold">$4,000</span> for the 4 years that M4BL groups have been
+              organizing in the city.
+            </li>
+          </ul>
+          <p>
+          And of course any amount helps!
+          </p>
+        </section>
+
+        <section class="w-full p-6 text-gray-700">
+          <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+            What is this 'money pot'?
+          </h3>
+          <p>
+          Over the last year, the members of the
+          <span class="font-bold">DC Movement for Black Lives Coalition</span> have been
+          growing a local, no string attached fund. People with resources put in what they can each
+          month and organizers can draw from the pot to meet their needs. Over the last 6 months,
+          the money pot moved <span class="font-bold">$37,000</span> to local DMV organizers. In
+          this critical moment, we are ramping up the money pot to cover local mutual-aid organizers
+          who need financial support and encourage you to give big in this moment of crisis.
+          </p>
+        </section>
+
+        <section class="w-full p-6 text-gray-700">
+          <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+            Beyond this crisis...
+          </h3>
+          <p>
+          Even when not in crisis, organizers are not paid for much of the work they do toward
+          liberation. Many have to work multiple precarious jobs, rely on unstable grant funding,
+          or waste time and energy staying afloat in other ways. They also tend to be incredibly
+          generous people, sharing whatever resources they do have with their families and
+          communities.
+          </p>
+          <p>
+          We believe that sustaining the livelihood and work of local organizers is absolutely
+          vital in our struggles for liberation. Please consider sustaining this work into the
+          future by signing up to contribute monthly.
+          </p>
+          <p>
+          <a class="text-xl text-red-600 underline" href="https://www.patreon.com/DCM4BL">
+            Become a sustaining contributor!
+          </a>
+          </p>
+        </section>
+
+        <section class="w-full p-6 text-gray-700">
+          <h3 id="contribute" class="text-3xl text-gray-800 font-bold leading-none mb-3">
+            Other amazing fundraising efforts
+          </h3>
+          <p class="mb-1">
+          This is one fundraising effort among many, one that focuses on generating money to
+          support organizers themselves. If you’d like to contribute to mutual aid efforts more
+          generally, here are some amazing projects that could use your support:
+          </p>
+          <ul class="list-disc list-outside px-4 mb-1">
+            <li>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <!-- Weave out of background above into gradient -->
+    <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
+      <!-- Change the fill color to match the previous section colour -->
+      <g class="wave" fill="white">
+      <path d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"></path>
+      </g>
+      <g transform="translate(1.000000, 15.000000)" fill="#FFFFFF">
+      <g transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) ">
+      <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
+      <path d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z" opacity="0.100000001"></path>
+      <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" opacity="0.200000003"></path>
+      </g>
+      </g>
+      </g>
+      </g>
+    </svg>
+
+    <!-- Footer -->
+    <section class="container mx-auto text-center py-6">
+      <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-white">
+        #WeKeepUsSafe
+      </h1>
+
+      <div class="w-full mb-4">	
+        <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+      </div>
+
+      <br/>
+
+      <a href="#contribute" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">
+        Contribute
+      </a>
+    </section>
+  </div>
 </template>
+
+
+<style>
+body {
+ font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.gradient {
+  background: linear-gradient(90deg, #ED213A 0%, #93291E 100%);
+}
+</style>

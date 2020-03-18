@@ -9,7 +9,8 @@
   "dependencies": {
     "gridsome": "^0.7.0",
     "gridsome-plugin-netlify-cms": "^1.0.9",
-    "netlify-cms": "^2.10.32"
+    "netlify-cms": "^2.10.32",
+    "typeface-source-sans-pro": "^1.1.5"
   },
   "devDependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
