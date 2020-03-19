@@ -193,6 +193,20 @@
           the number of sustainers up to <span class="font-bold text-xl">100!</span>
           </p>
         </section>
+
+        <section class="w-full p-6">
+          <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+            Questions?
+          </h3>
+          <p>
+          <span v-if="email" class="text-xl">
+            {{ email }}
+          </span>
+          <a v-else @click="showEmail" class="underline">
+            Click here to show our email address
+          </a>
+          </p>
+        </section>
       </div>
     </div>
 
@@ -248,3 +262,18 @@ p {
   background: linear-gradient(90deg, rgba(196,30,99,1) 0%, rgba(214,18,98,1) 100%);
 }
 </style>
+
+<script>
+export default {
+  data() {
+    return {
+      email: null,
+    }
+  },
+  methods: {
+    showEmail() {
+      this.email = "mvmt4blklivesdc@gmail.com"
+    },
+  },
+}
+</script>
