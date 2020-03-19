@@ -151,6 +151,23 @@
         </section>
 
         <section class="w-full p-6">
+          <h3 id="contribute" class="text-3xl text-gray-800 font-bold leading-none mb-3">
+            Other amazing fundraising efforts
+          </h3>
+          <p>
+          This is one fundraising effort among many, focused on generating money to
+          support organizers themselves. If you'd like to contribute to mutual aid efforts more
+          generally, here are some amazing projects that could use your support:
+          </p>
+          <p>
+          <a class="text-xl text-red-600 underline" href="https://docs.google.com/spreadsheets/d/1wLncKL-9ixUFV_UIW08SO-MNVVMhupcK1sFtlTt5L3M">
+            Spreadsheet of mutual aid efforts
+          </a>
+          <span>(click on the <span class="font-bold">'Fundraising pages'</span> tab)</span>
+          </p>
+        </section>
+
+        <section class="w-full p-6">
           <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
             Beyond this crisis...
           </h3>
@@ -174,23 +191,6 @@
           <p>
           Over the next <span class="font-bold text-xl">6 months</span>, we're hoping to bring
           the number of sustainers up to <span class="font-bold text-xl">100!</span>
-          </p>
-        </section>
-
-        <section class="w-full p-6">
-          <h3 id="contribute" class="text-3xl text-gray-800 font-bold leading-none mb-3">
-            Other amazing fundraising efforts
-          </h3>
-          <p>
-          This is one fundraising effort among many, focused on generating money to
-          support organizers themselves. If you'd like to contribute to mutual aid efforts more
-          generally, here are some amazing projects that could use your support:
-          </p>
-          <p>
-          <a class="text-xl text-red-600 underline" href="https://docs.google.com/spreadsheets/d/1wLncKL-9ixUFV_UIW08SO-MNVVMhupcK1sFtlTt5L3M">
-            Spreadsheet of mutual aid efforts
-          </a>
-          <span>(click on the <span class="font-bold">'Fundraising pages'</span> tab)</span>
           </p>
         </section>
       </div>
