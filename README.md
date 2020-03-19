@@ -1,14 +1,16 @@
-# Default starter for Gridsome
 
-This is the project you get when you run `gridsome create new-project`.
+## Source for [moneypot.m4bldc.org](https://moneypot.m4bldc.org/)
 
-### 1. Install Gridsome CLI tool if you don't have
+`src/pages/Index.vue` contains source for the main page
 
-`npm install --global @gridsome/cli`
+## Stack
+* [Gridsome](https://gridsome.org/), which uses [Vue](https://vuejs.org)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Node and npm](nodejs.org)
 
-### 2. Create a Gridsome project
+Also configured to use [Netlify CMS](https://www.netlifycms.org/) though the page its not used at the moment.
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+## Development
+
+Run `gridsome develop` from the root directory to start a local dev server at `http://localhost:8080`.
+It will automatically update as changes are made to source.
