@@ -1,25 +1,12 @@
 <template>
-  <div class="leading-normal tracking-normal text-white gradient">
-    <!--Hero-->
-    <div class="container pt-12 px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-      <!--Left Col-->
-      <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-        <h1 class="my-4 text-5xl font-bold leading-tight">
-          Organizers are critical in moments of crisis!
-        </h1>
+  <div class="leading-normal tracking-normal text-gray-700 gradient">
+    <div class="container mx-auto max-w-5xl p-6 items-center">
+      <g-image class="mx-auto" src="~/images/flyer.jpeg" />
 
-        <p class="leading-normal text-2xl mb-2">
-          Help us support those holding down mutual aid efforts in the DMV
-        </p>
-
+      <div class="mt-8 mb-8">
         <a href="#contribute" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">
           Contribute
         </a>
-      </div>
-
-      <!--Right Col-->
-      <div class="w-full md:w-3/5 py-6 text-center">
-        <!-- <img class="w-full md:w-4/5 z-50" src="hero.png"> -->
       </div>
     </div>
 
@@ -42,47 +29,43 @@
     <!-- Main text -->
     <div class="bg-white py-8">
       <div class="container max-w-5xl mx-auto m-8">
-        <section class="flex flex-wrap">
-          <div class="w-full sm:w-1/2 p-6">
-            <g-image
-              src="~/images/empty_shelves.jpg"
-              alt="image of empty shelves"
-              fit="contain"
-              background="white"
-            />
-          </div>
-          <div class="text-gray-700 w-full sm:w-1/2 p-6">
-            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-              In this moment of pandemic,
-            </h3>
-            <p>
-            we have been horrified by the lack of a unified governmental response to care for
-            the needs of DMV residents.
-            </p>
-            <p>
-            This reality will only magnify the inequity in which we live every day, doing the most
-            harm to people who already live at the margins of our social fabric: hourly and
-            contract workers, people working in informal and gig economies, single parents, folks
-            experiencing homelessness, poor and working class communities, immigrants with varying
-            documentation statuses, people without access to health insurance, folks with mental
-            health diagnoses, queer and trans people, and Black people and communities of color.
-            </p>
-            <p>
-            Here in the DMV, organizers from these communities are coming together to create systems
-            of
-            <a
-              href="http://bigdoorbrigade.com/what-is-mutual-aid/"
-              class="text-red-600 underline"
-              >
-              mutual aid
-            </a>
-              for the survival and safety of their loved ones and neighbors...
-            </p>
-          </div>
+        <section class="w-full p-6">
+          <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+            In this moment of pandemic...
+          </h3>
+          <p>
+          We have been horrified by the lack of a unified governmental response to care for
+          the needs of DMV residents.
+          </p>
+          <p>
+          This reality will only magnify the inequity in which we live every day, doing the most
+          harm to people who already live at the margins of our social fabric: hourly and
+          contract workers, people working in informal and gig economies, single parents, folks
+          experiencing homelessness, poor and working class communities, immigrants with varying
+          documentation statuses, people without access to health insurance, folks with mental
+          health diagnoses, queer and trans people, and Black people and communities of color.
+          </p>
+          <p>
+          Here in the DMV, organizers from these communities are coming together to create systems
+          of
+          <a
+            href="http://bigdoorbrigade.com/what-is-mutual-aid/"
+            class="text-red-600 underline"
+            >
+            mutual aid
+          </a>
+            for the survival and safety of their loved ones and neighbors...
+          </p>
         </section>
 
         <section class="flex flex-wrap flex-col-reverse sm:flex-row mt-6">
-          <div class="w-5/6 sm:w-1/2 p-6 text-gray-700">
+          <div class="w-5/6 sm:w-1/2 p-6">
+            <g-image
+              src="~/images/organizers.jpg"
+              alt="image of mutual aid organizers"
+            />
+          </div>
+          <div class="w-full sm:w-1/2 p-6">
             <div class="align-middle">
               <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
                 Support the organizers!
@@ -99,26 +82,24 @@
               </p>
             </div>
           </div>
-          <div class="w-full sm:w-1/2 p-6">
-            <g-image
-              src="~/images/organizers.jpg"
-              alt="image of mutual aid organizers"
-              background="white"
-            />
-          </div>
         </section>
 
-        <section class="w-full p-6 text-gray-700">
-          <h3 id="contribute" class="text-3xl text-red-600 font-bold leading-none mb-3">
+        <section class="w-full p-6">
+          <h3 id="contribute" class="text-3xl text-red-700 font-bold leading-none mb-3">
             Venmo @m4bl-money-pot
           </h3>
           <p>
           We are collecting contributions via Venmo because it will allow us to distribute
           funds quickly, and with minimal fees.
           </p>
+          <p>
+          Our goal is to collect <span class="font-bold text-xl">$20,000</span> in the next
+          <span class="font-bold text-xl">20 days</span> to support organizers during this critical
+          time.
+          </p>
         </section>
 
-        <section class="w-full p-6 text-gray-700">
+        <section class="w-full p-6">
           <h3 id="contribute" class="text-3xl text-gray-800 font-bold leading-none mb-3">
             How much should I contribute?
           </h3>
@@ -136,16 +117,16 @@
           </p>
           <ul class="list-disc list-outside px-4 mb-1">
             <li>
-              Give <span class="font-bold">$500</span> for the 500 people who had joined the DC
+              Give <span class="font-bold text-lg">$500</span> for the 500 people who had joined the DC
               mutual aid response in just the first few days.
             </li>
             <li>
-              Give <span class="font-bold">$1000</span> for the 1000 unpaid hours that organizers
+              Give <span class="font-bold text-lg">$1000</span> for the 1000 unpaid hours that organizers
               have put into creating resource stations, providing childcare, and offering mental
               health services in just a couple of days.
             </li>
             <li>
-              Give <span class="font-bold">$4,000</span> for the 4 years that M4BL groups have been
+              Give <span class="font-bold text-lg">$4,000</span> for the 4 years that M4BL groups have been
               organizing in the city.
             </li>
           </ul>
@@ -154,7 +135,7 @@
           </p>
         </section>
 
-        <section class="w-full p-6 text-gray-700">
+        <section class="w-full p-6">
           <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
             What is this 'money pot'?
           </h3>
@@ -169,7 +150,7 @@
           </p>
         </section>
 
-        <section class="w-full p-6 text-gray-700">
+        <section class="w-full p-6">
           <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
             Beyond this crisis...
           </h3>
@@ -190,21 +171,27 @@
             Become a sustaining contributor!
           </a>
           </p>
+          <p>
+          Over the next <span class="font-bold text-xl">6 months</span>, we're hoping to bring
+          the number of sustainers up to <span class="font-bold text-xl">100!</span>
+          </p>
         </section>
 
-        <section class="w-full p-6 text-gray-700">
+        <section class="w-full p-6">
           <h3 id="contribute" class="text-3xl text-gray-800 font-bold leading-none mb-3">
             Other amazing fundraising efforts
           </h3>
-          <p class="mb-1">
-          This is one fundraising effort among many, one that focuses on generating money to
-          support organizers themselves. If you’d like to contribute to mutual aid efforts more
+          <p>
+          This is one fundraising effort among many, focused on generating money to
+          support organizers themselves. If you'd like to contribute to mutual aid efforts more
           generally, here are some amazing projects that could use your support:
           </p>
-          <ul class="list-disc list-outside px-4 mb-1">
-            <li>
-            </li>
-          </ul>
+          <p>
+          <a class="text-xl text-red-600 underline" href="https://docs.google.com/spreadsheets/d/1wLncKL-9ixUFV_UIW08SO-MNVVMhupcK1sFtlTt5L3M">
+            Spreadsheet of mutual aid efforts
+          </a>
+          <span>(click on the <span class="font-bold">'Fundraising pages'</span> tab)</span>
+          </p>
         </section>
       </div>
     </div>
@@ -258,6 +245,6 @@ p {
 }
 
 .gradient {
-  background: linear-gradient(90deg, #ED213A 0%, #93291E 100%);
+  background: linear-gradient(90deg, rgba(196,30,99,1) 0%, rgba(214,18,98,1) 100%);
 }
 </style>
