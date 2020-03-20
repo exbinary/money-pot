@@ -106,32 +106,14 @@
           <p>
           We believe our collective immunity comes not from hoarding our resources, but
           supporting each other. As you are deciding how much to contribute, use
-          <a href="">
+          <a
+            class="underline text-red-600"
+            href="https://docs.google.com/document/d/1MY9sSupJqO2zQMuvWZ1ZWJCs9YO2ftJrOBPhgJ8dy0k/edit?usp=sharing"
+          >
             this checklist
           </a>
           to explore ways you may be financially and systematically supported to keep healthy
           during this time.
-          </p>
-          <p class="mb-1">
-          Here are some numbers that are significant to mutual aid efforts happening right now:
-          </p>
-          <ul class="list-disc list-outside px-4 mb-1">
-            <li>
-              Give <span class="font-bold text-lg">$500</span> for the 500 people who had joined the DC
-              mutual aid response in just the first few days.
-            </li>
-            <li>
-              Give <span class="font-bold text-lg">$1000</span> for the 1000 unpaid hours that organizers
-              have put into creating resource stations, providing childcare, and offering mental
-              health services in just a couple of days.
-            </li>
-            <li>
-              Give <span class="font-bold text-lg">$4,000</span> for the 4 years that M4BL groups have been
-              organizing in the city.
-            </li>
-          </ul>
-          <p>
-          And of course any amount helps!
           </p>
         </section>
 
