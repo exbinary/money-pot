@@ -115,6 +115,37 @@
           to explore ways you may be financially and systematically supported to keep healthy
           during this time.
           </p>
+          <p class="mb-1">
+          Here are some numbers significant to mutual aid efforts happening right now:
+          </p>
+          <ul class="list-disc list-outside px-4 mb-1">
+            <li>
+              Give <span class="font-bold text-lg">$12</span> for the dozens of organizers supported
+              by the money pot in 2019.
+            </li>
+            <li>
+              Give <span class="font-bold text-lg">$50</span> for the 50+ mutual aid projects that have
+              already come together in response to COVID-19.
+            </li>
+            <li>
+              Give <span class="font-bold text-lg">$100</span> for the hundreds of generations of resource
+              and money sharing this work builds on.
+            </li>
+            <li>
+              Give <span class="font-bold text-lg">$1,400</span> for the 1,400+ people who've joined the
+              <a class="underline" href="https://www.facebook.com/groups/492881801379594">
+                DC mutual aid network
+              </a>
+              in just a week.
+            </li>
+            <li>
+              Give <span class="font-bold text-lg">$4,000</span> for the 4+ years that M4BL groups have been
+              organizing in the city.
+            </li>
+          </ul>
+          <p>
+          And of course, any amount helps!
+          </p>
         </section>
 
         <section class="w-full p-6">
