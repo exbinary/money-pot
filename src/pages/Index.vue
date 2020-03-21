@@ -173,7 +173,10 @@
           generally, here are some amazing projects that could use your support:
           </p>
           <p>
-          <a class="text-xl text-red-600 underline" href="https://docs.google.com/spreadsheets/d/1wLncKL-9ixUFV_UIW08SO-MNVVMhupcK1sFtlTt5L3M">
+          <a
+            class="text-xl text-red-600 underline"
+            href="https://docs.google.com/spreadsheets/d/1wLncKL-9ixUFV_UIW08SO-MNVVMhupcK1sFtlTt5L3M/edit#gid=1605963046"
+          >
             Spreadsheet of mutual aid efforts
           </a>
           <span>(click on the <span class="font-bold">'Fundraising pages'</span> tab)</span>
