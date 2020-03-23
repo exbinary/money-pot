@@ -42,8 +42,8 @@
           harm to people who already live at the margins of our social fabric: hourly and
           contract workers, people working in informal and gig economies, single parents, folks
           experiencing homelessness, poor and working class communities, immigrants with varying
-          documentation statuses, people without access to health insurance, folks with mental
-          health diagnoses, queer and trans people, and Black people and communities of color.
+          documentation statuses, people without access to health insurance, folks with disabilities
+          or mental health struggles, queer and trans people, and Black, Brown and Indigenous communities.
           </p>
           <p>
           Here in the DMV, organizers from these communities are coming together to create systems
@@ -94,8 +94,13 @@
           </p>
           <p>
           Our goal is to collect <span class="font-bold text-xl">$20,000</span> in the next
-          <span class="font-bold text-xl">20 days</span> to support organizers during this critical
-          time.
+          <span class="font-bold text-xl">20 days</span> to support organizers of color during
+          this critical time.
+          </p>
+          <p>
+          If you don't have a Venmo account, you can sign up
+          <a class="underline" href="https://venmo.com/signup">here</a>, and if you're having trouble with that
+          or need an alternative, feel free to <a class="underline" href="#contact">contact us</a>.
           </p>
         </section>
 
@@ -133,7 +138,7 @@
             </li>
             <li>
               Give <span class="font-bold text-lg">$1,400</span> for the 1,400+ people who've joined the
-              <a class="underline" href="https://www.facebook.com/groups/492881801379594">
+              <a class="underline text-red-600" href="https://www.facebook.com/groups/492881801379594">
                 DC mutual aid network
               </a>
               in just a week.
@@ -153,9 +158,9 @@
             What is this 'money pot'?
           </h3>
           <p>
-          Over the last year, the members of the
+          Over the last year, members of the
           <span class="font-bold">DC Movement for Black Lives Coalition</span> have been
-          growing a local, no string attached fund. People with resources put in what they can each
+          growing a local, no strings attached fund. People with resources put in what they can each
           month and organizers can draw from the pot to meet their needs. Over the last 6 months,
           the money pot moved <span class="font-bold">$37,000</span> to local DMV organizers. In
           this critical moment, we are ramping up the money pot to cover local mutual-aid organizers
@@ -179,7 +184,7 @@
           >
             Spreadsheet of mutual aid efforts
           </a>
-          <span>(click on the <span class="font-bold">'Fundraising pages'</span> tab)</span>
+          <span>(check out the other tabs while you're there!)</span>
           </p>
         </section>
 
@@ -210,7 +215,7 @@
           </p>
         </section>
 
-        <section class="w-full p-6">
+        <section id="contact" class="w-full p-6">
           <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
             Questions?
           </h3>
