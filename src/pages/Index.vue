@@ -50,7 +50,7 @@
           of
           <a
             href="http://bigdoorbrigade.com/what-is-mutual-aid/"
-            class="text-red-600 underline"
+            class="red underline"
             >
             mutual aid
           </a>
@@ -85,7 +85,7 @@
         </section>
 
         <section class="w-full p-6">
-          <h3 id="contribute" class="text-3xl text-red-700 font-bold leading-none mb-3">
+          <h3 id="contribute" class="text-3xl red font-bold leading-none mb-3">
             Venmo @m4bl-money-pot
           </h3>
           <p>
@@ -102,6 +102,11 @@
           <a class="underline" href="https://venmo.com/signup">here</a>, and if you're having trouble with that
           or need an alternative, feel free to <a class="underline" href="#contact">contact us</a>.
           </p>
+          <div><span class="text-md font-bold text-xl">$3,917</span> raised of $20,000 goal!</div>
+          <progress class="w-full md:w-1/2" max="20000" value="3917"></progress>
+          <p class="mt-4">
+          Thank you! And please consider becoming a <a class="underline" href="#sustainer">monthly contributor</a>.
+          </p>
         </section>
 
         <section class="w-full p-6">
@@ -112,7 +117,7 @@
           We believe our collective immunity comes not from hoarding our resources, but
           supporting each other. As you are deciding how much to contribute, use
           <a
-            class="underline text-red-600"
+            class="underline red"
             href="https://docs.google.com/document/d/1MY9sSupJqO2zQMuvWZ1ZWJCs9YO2ftJrOBPhgJ8dy0k/edit?usp=sharing"
           >
             this checklist
@@ -138,7 +143,7 @@
             </li>
             <li>
               Give <span class="font-bold text-lg">$1,400</span> for the 1,400+ people who've joined the
-              <a class="underline text-red-600" href="https://www.facebook.com/groups/492881801379594">
+              <a class="underline red" href="https://www.facebook.com/groups/492881801379594">
                 DC mutual aid network
               </a>
               in just a week.
@@ -179,7 +184,7 @@
           </p>
           <p>
           <a
-            class="text-xl text-red-600 underline"
+            class="text-xl red underline"
             href="https://docs.google.com/spreadsheets/d/1wLncKL-9ixUFV_UIW08SO-MNVVMhupcK1sFtlTt5L3M/edit#gid=1605963046"
           >
             Spreadsheet of mutual aid efforts
@@ -188,7 +193,7 @@
           </p>
         </section>
 
-        <section class="w-full p-6">
+        <section id="sustainer" class="w-full p-6">
           <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
             Beyond this crisis...
           </h3>
@@ -205,7 +210,7 @@
           future by signing up to contribute monthly.
           </p>
           <p>
-          <a class="text-xl text-red-600 underline" href="https://www.patreon.com/DCM4BL">
+          <a class="text-xl red underline" href="https://www.patreon.com/DCM4BL">
             Become a sustaining contributor!
           </a>
           </p>
@@ -279,9 +284,52 @@ p {
   margin-bottom: 1em;
 }
 
-.gradient {
-  background: linear-gradient(90deg, rgba(196,30,99,1) 0%, rgba(214,18,98,1) 100%);
+progress {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 1.5rem;
 }
+
+progress::-webkit-progress-bar {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress::-webkit-progress-value {
+  background-image:
+    -webkit-linear-gradient(
+      -45deg,
+      transparent 33%, rgba(0, 0, 0, .1) 33%,
+      rgba(0, 0, 0, .1) 66%, transparent 66%
+    ),
+    -webkit-linear-gradient(90deg, #c41e63 0%, #d61262 100%)
+  ;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress::-moz-progress-bar {
+  background-image:
+    -moz-linear-gradient(
+      -45deg,
+      transparent 33%, rgba(0, 0, 0, .1) 33%,
+      rgba(0, 0, 0, .1) 66%, transparent 66%
+    ),
+    -moz-linear-gradient(90deg, #c41e63 0%, #d61262 100%)
+  ;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.red {
+  color: #c41e63;
+}
+
+.gradient {
+  background: linear-gradient(90deg, #c41e63 0%, #d61262 100%);
+}
+
 </style>
 
 <script>
