@@ -102,8 +102,12 @@
           <a class="underline" href="https://venmo.com/signup">here</a>, and if you're having trouble with that
           or need an alternative, feel free to <a class="underline" href="#contact">contact us</a>.
           </p>
-          <div><span class="text-md font-bold text-xl">$3,917</span> raised of $20,000 goal!</div>
-          <progress class="w-full md:w-1/2" max="20000" value="3917"></progress>
+          <div>
+            <span class="text-md font-bold text-xl">$6,467</span> raised of $20,000 goal in
+            <span class="text-md font-bold text-lg">1</span>
+            day!
+          </div>
+          <progress class="w-full md:w-1/2" max="20000" value="6467"></progress>
           <p class="mt-4">
           Thank you! And please consider becoming a <a class="underline" href="#sustainer">monthly contributor</a>.
           </p>
