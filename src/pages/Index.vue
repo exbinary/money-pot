@@ -93,6 +93,7 @@
           <span class="font-bold text-xl">20 days</span> to support organizers of color during
           this critical time.
           </p>
+
           <div class="flex flex-wrap sm:flex-row items-center">
             <div class="flex-auto w-4/5 sm:w-1/2">
               <div>
@@ -102,31 +103,43 @@
               </div>
               <progress class="w-full md:w-1/2" max="20000" value="6467"></progress>
               <p class="mt-4">
-              If you don't have a Venmo account, you can sign up for one
-              <a class="underline" href="https://venmo.com/signup">here</a>.
-              </p>
-              <p>
-              Note: if Venmo asks for the last 4 digits of our phone number, they are
-              <span class="font-bold text-md">1771</span>.
+              If you're viewing this on another device and have Venmo installed on your
+              phone, use the 'Scan code' menu item in the app and point your phone's camera
+              at the image here.
               </p>
             </div>
             <div class="flex-none md:flex-1 sm:w-1/2">
-              <g-image
-                width="200px"
-                src="~/images/venmo-qr.png"
-                alt="image of mutual aid organizers"
-                />
+              <a href="https://venmo.com/code?user_id=2966863130656768950">
+                <g-image
+                  width="200px"
+                  src="~/images/venmo-qr.png"
+                  alt="Venmo QR code"
+                  />
+              </a>
             </div>
           </div>
-          <p class="mt-4">
+
+          <p>
+          You can also type in <span class="font-bold">@m4bl-money-pot</span> instead.
+          <br/>
+          Venmo may ask for the last 4 digits of our phone number as confirmation: they are
+          <span class="font-bold text-md">1771</span>.
+          </p>
+          <p>
+          If you don't have a Venmo account, you can sign up for one
+          <a class="underline" href="https://venmo.com/signup">here</a>.
+          </p>
+          <p>
           We do also accept contributions via PayPal and credit cards, but
           <span class="font-bold">prefer Venmo</span>
           because it will allow us to distribute funds quickly, and with minimal fees.
-          <br/>
+          </p>
+          <p>
           <a class="underline red" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ZRGV8J3YEZGVW&item_name=Support+mutual+aid+organizers+in+the+DMV&currency_code=USD&source=url">
             Contribute via PayPal or credit card
           </a>
           </p>
+          <p>
           Thank you! And please consider becoming a <a class="underline" href="#sustainer">monthly contributor</a>.
           </p>
         </section>
