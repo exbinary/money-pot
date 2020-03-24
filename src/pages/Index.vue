@@ -89,26 +89,44 @@
             Venmo @m4bl-money-pot
           </h3>
           <p>
-          We are collecting contributions via Venmo because it will allow us to distribute
-          funds quickly, and with minimal fees.
-          </p>
-          <p>
-          Our goal is to collect <span class="font-bold text-xl">$20,000</span> in the next
+          Our goal is to collect <span class="font-bold text-xl">$20,000</span> in 
           <span class="font-bold text-xl">20 days</span> to support organizers of color during
           this critical time.
           </p>
-          <p>
-          If you don't have a Venmo account, you can sign up
-          <a class="underline" href="https://venmo.com/signup">here</a>, and if you're having trouble with that
-          or need an alternative, feel free to <a class="underline" href="#contact">contact us</a>.
-          </p>
-          <div>
-            <span class="text-md font-bold text-xl">$6,467</span> raised of $20,000 goal in
-            <span class="text-md font-bold text-lg">1</span>
-            day!
+          <div class="flex flex-wrap sm:flex-row items-center">
+            <div class="flex-auto w-4/5 sm:w-1/2">
+              <div>
+                <span class="font-bold text-xl">$6,467</span> raised of $20,000 goal in
+                <span class="font-bold text-lg">1</span>
+                day!
+              </div>
+              <progress class="w-full md:w-1/2" max="20000" value="6467"></progress>
+              <p class="mt-4">
+              If you don't have a Venmo account, you can sign up for one
+              <a class="underline" href="https://venmo.com/signup">here</a>.
+              </p>
+              <p>
+              Note: if Venmo asks for the last 4 digits of our phone number, they are
+              <span class="font-bold text-md">1771</span>.
+              </p>
+            </div>
+            <div class="flex-none md:flex-1 sm:w-1/2">
+              <g-image
+                width="200px"
+                src="~/images/venmo-qr.png"
+                alt="image of mutual aid organizers"
+                />
+            </div>
           </div>
-          <progress class="w-full md:w-1/2" max="20000" value="6467"></progress>
           <p class="mt-4">
+          We do also accept contributions via PayPal and credit cards, but
+          <span class="font-bold">prefer Venmo</span>
+          because it will allow us to distribute funds quickly, and with minimal fees.
+          <br/>
+          <a class="underline red" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ZRGV8J3YEZGVW&item_name=Support+mutual+aid+organizers+in+the+DMV&currency_code=USD&source=url">
+            Contribute via PayPal or credit card
+          </a>
+          </p>
           Thank you! And please consider becoming a <a class="underline" href="#sustainer">monthly contributor</a>.
           </p>
         </section>
