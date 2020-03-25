@@ -56,6 +56,12 @@
           </a>
             for the survival and safety of their loved ones and neighbors...
           </p>
+          <p>
+          In the past week, mutual aid efforts have made sure hundreds of people who are confined to
+          their homes get groceries, that there is a hotline in every ward for people to call who
+          are in need of aid, and that there is a coordinated effort to hold the DC city
+          government accountable to care for our neighbors.
+          </p>
         </section>
 
         <section class="flex flex-wrap flex-col-reverse sm:flex-row mt-6">
@@ -73,7 +79,9 @@
               <p>
               As with most community organizing work, setting up and implementing these systems
               is a labor of love. It is difficult, heavy, unpaid work being taken up by
-              individuals who already carry so much.
+              individuals who already carry so much. We are asking you to pour into and support
+              the work of folks leading mutual aid projects by giving generously now and for the
+              future.
               </p>
               <p>
               If you happen to be hit less hard in this moment, will continue to receive income
