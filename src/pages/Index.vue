@@ -105,11 +105,11 @@
           <div class="flex flex-wrap sm:flex-row items-center">
             <div class="flex-auto w-4/5 sm:w-1/2">
               <div>
-                <span class="font-bold text-xl">$15,365</span> raised of $20,000 goal in
-                <span class="font-bold text-lg">4</span>
+                <span class="font-bold text-xl">$15,771</span> raised of $20,000 goal in
+                <span class="font-bold text-lg">5</span>
                 days!
               </div>
-              <progress class="w-full md:w-1/2" max="20000" value="15365"></progress>
+              <progress class="w-full md:w-1/2" max="20000" value="15771"></progress>
               <p class="mt-4">
               If you're viewing this on another device and have Venmo installed on your
               phone, use the 'Scan code' menu item in the app and point your phone's camera
