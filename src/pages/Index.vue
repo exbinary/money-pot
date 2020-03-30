@@ -97,7 +97,14 @@
             Venmo @m4bl-money-pot
           </h3>
           <p>
-          Our goal is to collect <span class="font-bold text-xl">$20,000</span> in 
+          We've seen phenomenal support in our first week of fundraising, gathering almost
+          <span class="text-lg">$17,000</span>, and have already disbursed
+          <span class="text-lg">$4,500</span> to organizers.
+          </p>
+          <p>
+          But as more requests come in, and we further understand the trajectory of the virus,
+          its become clear that we need to increase our goal. We're now looking to collect
+          <span class="font-bold text-xl">$40,000</span> over
           <span class="font-bold text-xl">20 days</span> to support organizers of color during
           this critical time.
           </p>
@@ -105,11 +112,11 @@
           <div class="flex flex-wrap sm:flex-row items-center">
             <div class="flex-auto w-4/5 sm:w-1/2">
               <div>
-                <span class="font-bold text-xl">$16,875</span> raised of $20,000 goal in
-                <span class="font-bold text-lg">6</span>
+                <span class="font-bold text-xl">$17,075</span> raised of $40,000 goal in
+                <span class="font-bold text-lg">7</span>
                 days!
               </div>
-              <progress class="w-full md:w-1/2" max="20000" value="16875"></progress>
+              <progress class="w-full md:w-1/2" max="40000" value="17075"></progress>
               <p class="mt-4">
               If you're viewing this on another device and have Venmo installed on your
               phone, use the 'Scan code' menu item in the app and point your phone's camera
