@@ -111,8 +111,8 @@
           <div class="flex flex-wrap sm:flex-row items-center">
             <div class="flex-auto w-4/5 sm:w-1/2">
               <div>
-                <span class="font-bold text-xl">$23,435</span> raised of $40,000 goal in
-                <span class="font-bold text-lg">15</span>
+                <span class="font-bold text-xl">$23,410</span> raised of $40,000 goal in
+                <span class="font-bold text-lg">19</span>
                 days!
               </div>
               <progress class="w-full md:w-1/2" max="40000" value="23435"></progress>
