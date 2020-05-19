@@ -30,6 +30,37 @@
     <div class="bg-white py-8">
       <div class="container max-w-5xl mx-auto m-8">
         <section class="w-full p-6">
+          <h3 class="text-3xl font-bold leading-none mb-3">
+            Two months in, an update...
+          </h3>
+          <p>
+          We have been inspired by the incredible engagement of our beloved community.
+          Together, here's what we've been able to do:
+          </p>
+          <div class="md:flex">
+            <div class="md:w-1/3 text-center">
+              <p class="red font-bold text-4xl mb-0">$40,000+</p>
+              <p>collected from <span class="font-bold text-xl">~230</span> people</p>
+            </div>
+            <div class="md:w-1/3 text-center">
+              <p class="red font-bold text-4xl mb-0">$5,000+</p>
+              <p>per month from <span class="font-bold text-xl">60</span> sustainers</p>
+            </div>
+            <div class="md:w-1/3 text-center">
+              <p class="red font-bold text-4xl mb-0">$38,000+</p>
+              <p>distributed to <span class="font-bold text-xl">36</span> organizers!</p>
+            </div>
+          </div>
+          <p>
+          <span class="font-bold text-2xl">But,</span> despite all the amazing support we've
+          seen, the need is ongoing and will soon surpass what we've been able to gather.
+          </p>
+          <p>
+          Please do what you can to spread the word to a wider circle. Read on for details of
+          our original ask or <a href="#contribute" class="red underline">ways to contribute</a>.
+          </p>
+        </section>
+        <section class="w-full p-6">
           <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
             In this moment of pandemic...
           </h3>
@@ -93,53 +124,34 @@
         </section>
 
         <section class="w-full p-6">
-          <h3 id="contribute" class="text-3xl red font-bold leading-none mb-3">
-            Venmo @m4bl-money-pot
+          <h3 id="contribute" class="text-3xl font-bold leading-none mb-3">
+            How to contribute:
           </h3>
           <p>
-          We've seen phenomenal support in our first ten days of fundraising, and have already disbursed
-          almost <span class="text-lg">$10,00</span> to organizers.
+          As the pandemic drags out and highlights prevailing injustices, it is becoming clearer
+          that sustaining organizers is long-term work. As such, the most meaningful way to
+          contribute is by becoming a
+          <a class="red font-bold text-2xl underline" href="https://www.patreon.com/DCM4BL">
+            monthly contributor
+          </a>
+          via <span class="font-bold text-lg">Patreon</span>.
           </p>
-          <p>
-          But as more requests come in, and we further understand the trajectory of the virus,
-          its become clear that we need to increase our goal. We're now looking to collect
-          <span class="font-bold text-xl">$40,000</span> over
-          <span class="font-bold text-xl">20 days</span> to support organizers of color during
-          this critical time.
-          </p>
-
-          <div class="flex flex-wrap sm:flex-row items-center">
-            <div class="flex-auto w-4/5 sm:w-1/2">
-              <div>
-                <span class="font-bold text-xl">$23,410</span> raised of $40,000 goal in
-                <span class="font-bold text-lg">19</span>
-                days!
-              </div>
-              <progress class="w-full md:w-1/2" max="40000" value="23435"></progress>
-              <p class="mt-4">
-              If you're viewing this on another device and have Venmo installed on your
-              phone, use the 'Scan code' menu item in the app and point your phone's camera
-              at the image here.
-              </p>
-            </div>
-            <div class="flex-none md:flex-1 sm:w-1/2">
-              <a href="https://venmo.com/code?user_id=2966863130656768950">
-                <g-image
-                  width="200px"
-                  src="~/images/venmo-qr.png"
-                  alt="Venmo QR code"
-                  />
-              </a>
-            </div>
+          <div>
+            <span class="font-bold text-xl">60</span> sustaining contributors!
           </div>
-
-          <p>
-          You can also type in <span class="font-bold">@m4bl-money-pot</span> instead.
-          <br/>
+          <progress class="w-full md:w-1/2" max="100" value="60"></progress>
+          <p>Our goal is to secure
+            <span class="font-bold text-lg">100</span> sustaining patrons by June 1st.
+          </p>
+          <p class="mt-10">
+          If you'd prefer to make a one-time contribution instead, you can
+          <span class="font-bold text-lg">Venmo</span> us:
+          </p>
+          <p class="red font-bold text-2xl">
+          @m4bl-money-pot
+          </p>
           Venmo may ask for the last 4 digits of our phone number as confirmation: they are
           <span class="font-bold text-md">1771</span>.
-          </p>
-          <p>
           If you don't have a Venmo account, you can sign up for one
           <a class="underline" href="https://venmo.com/signup">here</a>.
           </p>
@@ -152,9 +164,6 @@
           <a class="underline red" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ZRGV8J3YEZGVW&item_name=Support+mutual+aid+organizers+in+the+DMV&currency_code=USD&source=url">
             Contribute via PayPal or credit card
           </a>
-          </p>
-          <p>
-          Thank you! And please consider becoming a <a class="underline" href="#sustainer">monthly contributor</a>.
           </p>
         </section>
 
