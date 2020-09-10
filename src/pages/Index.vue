@@ -31,7 +31,7 @@
       <div class="container max-w-5xl mx-auto m-8">
         <section class="w-full p-6">
           <h3 class="text-3xl font-bold leading-none mb-3">
-            Two months in, an update...
+            Six months in, an update...
           </h3>
           <p>
           We have been inspired by the incredible engagement of our beloved community.
@@ -39,16 +39,16 @@
           </p>
           <div class="md:flex">
             <div class="md:w-1/3 text-center">
-              <p class="red font-bold text-4xl mb-0">$40,000+</p>
-              <p>collected from <span class="font-bold text-xl">~230</span> people</p>
+              <p class="red font-bold text-4xl mb-0">$68,000+</p>
+              <p>distributed to <span class="font-bold text-xl">73</span> organizers!</p>
             </div>
             <div class="md:w-1/3 text-center">
-              <p class="red font-bold text-4xl mb-0">$5,000+</p>
-              <p>per month from <span class="font-bold text-xl">60</span> sustainers</p>
+              <p class="red font-bold text-4xl mb-0">$9,300+</p>
+              <p>per month from <span class="font-bold text-xl">212</span> sustainers</p>
             </div>
             <div class="md:w-1/3 text-center">
-              <p class="red font-bold text-4xl mb-0">$38,000+</p>
-              <p>distributed to <span class="font-bold text-xl">36</span> organizers!</p>
+              <p class="red font-bold text-4xl mb-0">$50,000+</p>
+              <p>one-time contributions from <span class="font-bold text-xl">~350</span> people</p>
             </div>
           </div>
           <p>
@@ -136,20 +136,12 @@
           </a>
           via <span class="font-bold text-lg">Patreon</span>.
           </p>
-          <div>
-            <span class="font-bold text-xl">60</span> sustaining contributors!
-          </div>
-          <progress class="w-full md:w-1/2" max="100" value="60"></progress>
-          <p>Our goal is to secure
-            <span class="font-bold text-lg">100</span> sustaining patrons by June 1st.
-          </p>
-          <p class="mt-10">
+          <p>
           If you'd prefer to make a one-time contribution instead, you can
-          <span class="font-bold text-lg">Venmo</span> us:
-          </p>
-          <p class="red font-bold text-2xl">
+          <span class="font-bold text-lg">Venmo</span> us
+          <span class="red font-bold">
           @m4bl-money-pot
-          </p>
+          </span>.
           Venmo may ask for the last 4 digits of our phone number as confirmation: they are
           <span class="font-bold text-md">1771</span>.
           If you don't have a Venmo account, you can sign up for one
@@ -158,9 +150,7 @@
           <p>
           We do also accept contributions via PayPal and credit cards, but
           <span class="font-bold">prefer Venmo</span>
-          because it will allow us to distribute funds quickly, and with minimal fees.
-          </p>
-          <p>
+          because it will allow us to distribute funds quickly, and with minimal fees. 
           <a class="underline red" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ZRGV8J3YEZGVW&item_name=Support+mutual+aid+organizers+in+the+DMV&currency_code=USD&source=url">
             Contribute via PayPal or credit card
           </a>
@@ -200,11 +190,11 @@
               and money sharing this work builds on.
             </li>
             <li>
-              Give <span class="font-bold text-lg">$1,400</span> for the 1,400+ people who've joined the
+              Give <span class="font-bold text-lg">$1,400</span> for the 1,400+ people who joined the
               <a class="underline red" href="https://www.facebook.com/groups/492881801379594">
                 DC mutual aid network
               </a>
-              in just a week.
+              in just the first week.
             </li>
             <li>
               Give <span class="font-bold text-lg">$4,000</span> for the 4+ years that M4BL groups have been
@@ -221,14 +211,21 @@
             What is this 'money pot'?
           </h3>
           <p>
-          Over the last year, members of the
+          Since mid-2019, members of the
           <span class="font-bold">DC Movement for Black Lives Coalition</span> have been
           growing a local, no strings attached fund. People with resources put in what they can each
-          month and organizers can draw from the pot to meet their needs. Over the last 6 months,
-          the money pot moved <span class="font-bold">$37,000</span> to local DMV organizers. In
-          this critical moment, we are ramping up the money pot to cover local mutual-aid organizers
-          who need financial support and encourage you to give big in this moment of crisis.
+          month and organizers can draw from the pot to meet their needs. In 2019,
+          the money pot moved <span class="font-bold">$37,000</span> to local DMV organizers. Now, in
+          this critical moment of pandemic and uprising, we have expanded the money pot to any local
+          organizers connected to the following campaigns:
           </p>
+          <ul class="list-disc list-outside px-4 mb-1">
+            <li><a class="underline red" href="https://www.facebook.com/groups/492881801379594/">DC Mutual Aid Network</a></li>
+            <li><a class="underline red" href="https://www.decrimnow.org/">DECRIMNOW</a></li>
+            <li><a class="underline red" href="https://www.defundmpd.org/">Defund MPD</a></li>
+            <li><a class="underline red" href="https://www.facebook.com/NOSLinDC/videos/2651685175046756/">Night Out for Safety and Liberation</a></li>
+            <li><a class="underline red" href="https://twitter.com/nonewjailsdc">No New Jails</a></li>
+          </ul>
         </section>
 
         <section class="w-full p-6">
@@ -271,10 +268,6 @@
           <a class="text-xl red underline" href="https://www.patreon.com/DCM4BL">
             Become a sustaining contributor!
           </a>
-          </p>
-          <p>
-          Over the next <span class="font-bold text-xl">6 months</span>, we're hoping to bring
-          the number of sustainers up to <span class="font-bold text-xl">100!</span>
           </p>
         </section>
 
