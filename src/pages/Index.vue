@@ -31,7 +31,7 @@
       <div class="container max-w-5xl mx-auto m-8">
         <section class="w-full p-6">
           <h3 class="text-3xl font-bold leading-none mb-3">
-            Six months in, an update...
+            End of the year update...
           </h3>
           <p>
           We have been inspired by the incredible engagement of our beloved community.
@@ -39,16 +39,16 @@
           </p>
           <div class="md:flex">
             <div class="md:w-1/3 text-center">
-              <p class="red font-bold text-4xl mb-0">$68,000+</p>
-              <p>distributed to <span class="font-bold text-xl">73</span> organizers!</p>
+              <p class="red font-bold text-4xl mb-0">$140,000+</p>
+              <p>distributed to <span class="font-bold text-xl">117</span> organizers!</p>
             </div>
             <div class="md:w-1/3 text-center">
-              <p class="red font-bold text-4xl mb-0">$9,300+</p>
-              <p>per month from <span class="font-bold text-xl">212</span> sustainers</p>
+              <p class="red font-bold text-4xl mb-0">$10,200+</p>
+              <p>per month from <span class="font-bold text-xl">280</span> sustainers</p>
             </div>
             <div class="md:w-1/3 text-center">
-              <p class="red font-bold text-4xl mb-0">$50,000+</p>
-              <p>one-time contributions from <span class="font-bold text-xl">~350</span> people</p>
+              <p class="red font-bold text-4xl mb-0">$90,000+</p>
+              <p>one-time contributions from <span class="font-bold text-xl">~500</span> people</p>
             </div>
           </div>
           <p>
